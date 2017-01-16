@@ -11,7 +11,7 @@ var port = 8300;
 
 //Just one basic server response, to make sure our server is working.
 app.get('/*', function(req, res){  
-  res.send('Hello World');
+  res.send('Halo Wrld');
 });
 
 //Let's start up our server listening on our port:
